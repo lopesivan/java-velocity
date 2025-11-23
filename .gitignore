@@ -1,1 +1,6 @@
 kls_database.db
+.gradle
+build
+gradle
+gradlew
+gradlew.bat
