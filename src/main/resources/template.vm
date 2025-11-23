@@ -1,7 +1,6 @@
 Olá, $nome!
-Você está usando o Apache Velocity Engine.
 
-A sua lista de itens tem $itens.size() elementos:
-#foreach( $item in $itens )
-- $item
-#end
+$mensagem
+
+Este texto foi gerado usando Apache Velocity.
+
