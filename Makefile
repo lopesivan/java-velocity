@@ -1,17 +1,14 @@
-MVN = mvn
-Q   = -q
+GRADLE = /opt/gradle/gradle-8.10.2/bin/gradle
 
-.PHONY: compile run test clean
+.PHONY: init build run test clean
 
-compile:
-	$(MVN) $(Q) compile
-
+init:
+	$(GRADLE) wrapper
+build:
+	./gradlew build
 run:
-	$(MVN) $(Q) exec:java
-
+	./gradlew run
 test:
-	$(MVN) $(Q) test
-
+	./gradlew test
 clean:
-	$(MVN) $(Q) clean
-
+	./gradlew clean
