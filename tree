@@ -1,0 +1,8 @@
+.
+├── pom.xml                   <-- Arquivo de configuração central do Maven
+└── src
+    ├── main
+    │   ├── java              <-- Código-fonte Java (VelocityExample.java)
+    │   └── resources         <-- Arquivos de recursos/templates (template.vm)
+    └── test
+        └── java              <-- Código-fonte para testes
